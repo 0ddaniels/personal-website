@@ -1,1 +1,41 @@
-f
+body{
+    background-color: rgba(4, 4, 71, 0.795);
+}
+
+/*heading*/
+.blue{
+    background-color: rgb(75, 75, 216);
+    height: 200px;
+    width: 97.5%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+#head{
+    width: 80%;
+    height: auto;
+    float: left;
+}
+#pic{
+    width: 20%;
+    height: 101px;
+    float: left;
+}
+
+h1{
+    font-size: 60px;
+    margin-left: 550px;
+    margin-top: auto;
+}
+
+.blue > div > img{
+    width: 80px;
+    border-radius: 50%;
+    float: right;
+}
+nav{
+    background-color: gray;
+    width: 97.5%;
+}
