@@ -37,9 +37,10 @@ h1{
 }
 nav{
     background-color: cornflowerblue;
-    width: 1232px;
+    width: 125%;
     display: flex;
     border-radius: 4px;
+    text-align: center;
 }
 
 a{
@@ -50,7 +51,7 @@ a{
     color: black;  
 }
 a:hover{
-    color: rgb(117, 47, 173);
+    color: rgb(204, 11, 162);
 }
 
 /*Main Story*/
@@ -78,7 +79,32 @@ section > main > p{
     text-align: center;
 }
 
+
 /*Ads*/
+
+.rightad{
+    height: 1000px;
+    width: 18.25%;
+    background-color: rgb(75, 75, 216);
+    float: left;
+    border-radius: 8px;
+    margin-top: 600px;
+}
+
+.rightad > p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rightad > img{
+    width: 92.25%;
+    margin: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border-radius: 4px;
+}
 
 .leftad{
     height: 1000px;
@@ -89,11 +115,3 @@ section > main > p{
     margin-top: 600px;
 }
 
-.rightad{
-    height: 1000px;
-    width: 18.25%;
-    background-color: rgb(75, 75, 216);
-    float: left;
-    border-radius: 8px;
-    margin-top: 600px;
-}
