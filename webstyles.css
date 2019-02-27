@@ -115,3 +115,30 @@ section > main > p{
     margin-top: 600px;
 }
 
+.leftad > p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.leftad > img{
+    width: 92.25%;
+    margin: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+
+/*Articles*/
+
+#articles{
+    width: 60%;
+    height: auto;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-left: 19.5%;
+    margin-top: 0px;
+}
+
