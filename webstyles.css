@@ -59,15 +59,22 @@ a:hover{
 main{
     background-color: cornflowerblue;
     width: 60%;
-    margin: 20px 20px;
+    margin: 20px;
+    margin-top: 40px;
     border-radius: 8px;
     float: left;
 
 }
+section > main > h3{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 section > main > img{
     width: 75%;
     height: auto;
-    margin: 20px 100px;
+    margin: 10px 100px;
     margin-bottom: 0px; 
     border-radius: 6px;
     display: inline-block;
@@ -82,23 +89,24 @@ section > main > p{
 
 /*Ads*/
 
-.rightad{
+.ad{
     height: 1000px;
     width: 18.25%;
     background-color: rgb(75, 75, 216);
     float: left;
     border-radius: 8px;
-    margin-top: 600px;
+    margin-top: 700px;
 }
 
-.rightad > p{
+
+.ad > h2{
     font-size: 18px;
     font-weight: bolder;
     text-align: center;
     margin-top: 50px;
 }
 
-.rightad > img{
+.ad > img{
     width: 92.25%;
     margin: 10px;
     margin-bottom: 40px;
@@ -106,39 +114,27 @@ section > main > p{
     border-radius: 4px;
 }
 
-.leftad{
-    height: 1000px;
-    width: 18.25%;
-    background-color: rgb(75, 75, 216);
+.right{
+    float: right;
+}
+.left{
     float: left;
-    border-radius: 8px;
-    margin-top: 600px;
 }
-
-.leftad > p{
-    font-size: 18px;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.leftad > img{
-    width: 92.25%;
-    margin: 10px;
-    margin-bottom: 40px;
-    display: inline-block;
-    border-radius: 4px;
-}
-
 
 /*Articles*/
 
 #articles{
     width: 60%;
     height: auto;
-    background-color: cornflowerblue;
     display: inline-block;
     margin-left: 19.5%;
-    margin-top: 0px;
+    position: relative;
+    bottom:950px;
 }
 
+.story{
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px;
+}
